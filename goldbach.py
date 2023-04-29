@@ -92,7 +92,6 @@ for x in range(4, limit, 2):
     sumExists = False
     for y in primes:
         if (x - y) in primes:
-            f.write(str(x) + ' = '+ str(y) + ' + ' + str((x-y)) + "\n")
             sumExists = True
             break
     if (not sumExists):
